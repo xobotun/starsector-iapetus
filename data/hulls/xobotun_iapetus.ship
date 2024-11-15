@@ -1,0 +1,222 @@
+{
+  "hullName": "Iapetus",
+  "hullId": "xobotun_iapetus",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/iapetus/iapetus.png",
+  "style": "MIDLINE",
+  "height": 800,
+  "width": 400,
+  "center": [200, 300],
+  "collisionRadius": 389,
+  "shieldCenter": [97, 0.5],
+  "shieldRadius": 280,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": 20.5,
+      "locations": [284, 72]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 95,
+      "angle": -20.5,
+      "locations": [284, -72]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": 130.5,
+      "locations": [-184, 78]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 149,
+      "angle": -130.5,
+      "locations": [-184, -78]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 138,
+      "angle": 0,
+      "locations": [309.5, -1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-266.5, 109],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-268.5, 98],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-271.5, 82],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-271.5, 65],
+      "length": 96,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-271.5, 48],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-268.5, 33],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-266.5, 21],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-266, -21.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-269, -33],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-273, -47.5],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-272, -66],
+      "length": 96,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-272.5, -84.5],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-270.5, -98],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-266.5, -108.5],
+      "length": 32,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    334, -10.5,
+    308.5, -61,
+    307, -80,
+    287.5, -129,
+    265, -131,
+    262, -144,
+    -136.5, -142,
+    -153, -109,
+    -165, -110,
+    -177.5, -123.5,
+    -191.5, -130,
+    -209, -128.5,
+    -223.5, -118,
+    -234, -117.5,
+    -241.5, -121.5,
+    -252, -121,
+    -268, -102,
+    -271.5, -65.5,
+    -267.5, -29.5,
+    -252.5, -8.5,
+    -214, -8.5,
+    -214, 8.5,
+    -252.5, 8.5,
+    -267.5, 29.5,
+    -271.5, 65.5,
+    -268, 102,
+    -252, 121,
+    -241.5, 121.5,
+    -234, 117.5,
+    -223.5, 118,
+    -209, 128.5,
+    -191.5, 130,
+    -177.5, 123.5,
+    -165, 110,
+    -153, 109,
+    -136.5, 142,
+    262, 144,
+    265, 131,
+    287.5, 129,
+    307, 80,
+    308.5, 61,
+    334, 10.5
+  ]
+}

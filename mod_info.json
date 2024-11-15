@@ -1,0 +1,8 @@
+{
+	"id": "com.xobotun.iapetus",
+	"name": "Iapetus",
+	"author": "Xobotun",
+	"version": "0.0.1",
+	"description": "Adds a new unique cargo ship that is basically an Atlas scaled twice on each dimension",
+    "gameVersion": "0.97a-RC11"
+}
